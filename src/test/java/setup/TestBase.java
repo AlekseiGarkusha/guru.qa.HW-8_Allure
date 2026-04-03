@@ -34,9 +34,9 @@
       Configuration.baseUrl = "https://demoqa.com";
     }
 
-//    @AfterAll
-//    public static void tearDown() {
-//      closeWebDriver();
-//    }
+    @AfterAll
+    public static void tearDown() {
+      closeWebDriver();
+    }
   }
 
