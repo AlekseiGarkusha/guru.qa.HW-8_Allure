@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1653","testLambdaSteps()","","Fri Apr 03 12:20:34 UTC 2026","passed","Fri Apr 03 12:20:36 UTC 2026","","tests.StepsTest","tests.StepsTest","testLambdaSteps"
+"","608","testAnnotatedAttachments()","","Fri Apr 03 12:20:32 UTC 2026","passed","Fri Apr 03 12:20:32 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testAnnotatedAttachments"
+"","1","dynamicLabelsTest()","","Fri Apr 03 12:20:24 UTC 2026","passed","Fri Apr 03 12:20:24 UTC 2026","","tests.LabelTest","tests.LabelTest","dynamicLabelsTest"
+"","735","testLambdaAttachments()","","Fri Apr 03 12:20:31 UTC 2026","passed","Fri Apr 03 12:20:32 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testLambdaAttachments"
+"","6902","testIssueSearch()","","Fri Apr 03 12:20:24 UTC 2026","passed","Fri Apr 03 12:20:31 UTC 2026","","tests.SelenideTest","tests.SelenideTest","testIssueSearch"
+"","1956","testAnnotatedStep()","","Fri Apr 03 12:20:32 UTC 2026","passed","Fri Apr 03 12:20:34 UTC 2026","","tests.StepsTest","tests.StepsTest","testAnnotatedStep"
+"","24","Создание Issue для автоматизированного пользователя","","Fri Apr 03 12:20:24 UTC 2026","passed","Fri Apr 03 12:20:24 UTC 2026","","tests.LabelTest","tests.LabelTest","staticLabelsTest"
