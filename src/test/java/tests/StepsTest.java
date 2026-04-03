@@ -2,8 +2,10 @@ package tests;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
@@ -15,10 +17,16 @@ import static io.qameta.allure.Allure.step;
 
 public class StepsTest {
 
-  private final String REPOSITORY = "eroshenkoam/allure-example";
+  private final String REPOSITORY = "Garkusha1991";
   private final String ISSUE = "1";
 
   @Test
+  @Feature("Issue в репозитории")
+  @Story("Создание Issue")
+  @Owner("AlexeyGarkusha")
+  @Severity(SeverityLevel.BLOCKER)
+  @Link(value = "GitHub", url = "https://github.com")
+  @DisplayName("Создание Issue для автоматизированного пользователя")
   public void testLambdaSteps() {
     SelenideLogger.addListener("allure", new AllureSelenide());
 
@@ -48,5 +56,4 @@ public class StepsTest {
       .openIssueTab()
       .finedIssue(ISSUE);
   }
-
 }

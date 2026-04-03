@@ -10,8 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class WebSteps {
 
@@ -32,6 +31,7 @@ public class WebSteps {
 
   @Step("Открываем таб Issue")
   public WebSteps openIssueTab() {
+      $x("//*[@aria-haspopup='dialog']");
     $(".prc-ActionList-ItemLabel-81ohH").shouldBe(visible).click();
 
     return this;
