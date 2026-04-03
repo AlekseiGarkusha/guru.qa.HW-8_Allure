@@ -22,6 +22,6 @@ public class SelenideTest {
 
     $(".prc-ActionList-ItemLabel-81ohH").shouldBe(visible).click();
 
-    $(withText("#133")).should(Condition.exist);
+    $(withText("#1")).should(Condition.exist);
   }
 }
