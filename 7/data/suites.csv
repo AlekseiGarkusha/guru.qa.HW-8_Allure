@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","23","Создание Issue для автоматизированного пользователя","","Fri Apr 03 12:14:41 UTC 2026","passed","Fri Apr 03 12:14:41 UTC 2026","","tests.LabelTest","tests.LabelTest","staticLabelsTest"
+"","2","dynamicLabelsTest()","","Fri Apr 03 12:14:41 UTC 2026","passed","Fri Apr 03 12:14:41 UTC 2026","","tests.LabelTest","tests.LabelTest","dynamicLabelsTest"
+"","2159","testAnnotatedStep()","","Fri Apr 03 12:14:53 UTC 2026","passed","Fri Apr 03 12:14:55 UTC 2026","","tests.StepsTest","tests.StepsTest","testAnnotatedStep"
+"","10260","testIssueSearch()","","Fri Apr 03 12:14:41 UTC 2026","failed","Fri Apr 03 12:14:51 UTC 2026","","tests.SelenideTest","tests.SelenideTest","testIssueSearch"
+"","729","testAnnotatedAttachments()","","Fri Apr 03 12:14:52 UTC 2026","passed","Fri Apr 03 12:14:53 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testAnnotatedAttachments"
+"","672","testLambdaAttachments()","","Fri Apr 03 12:14:51 UTC 2026","passed","Fri Apr 03 12:14:52 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testLambdaAttachments"
+"","1343","testLambdaSteps()","","Fri Apr 03 12:14:55 UTC 2026","passed","Fri Apr 03 12:14:56 UTC 2026","","tests.StepsTest","tests.StepsTest","testLambdaSteps"
