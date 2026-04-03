@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","18534","Создание Issue для автоматизированного пользователя","","Fri Apr 03 16:58:52 UTC 2026","passed","Fri Apr 03 16:59:11 UTC 2026","","tests.SelenideTest","tests.SelenideTest","testIssueSearch"
+"","2195","testAnnotatedStep()","","Fri Apr 03 16:59:15 UTC 2026","passed","Fri Apr 03 16:59:17 UTC 2026","","tests.StepsTest","tests.StepsTest","testAnnotatedStep"
+"","694","Создание Issue для автоматизированного пользователя","","Fri Apr 03 16:59:14 UTC 2026","passed","Fri Apr 03 16:59:15 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testAnnotatedAttachments"
+"","3191","Создание Issue для автоматизированного пользователя","","Fri Apr 03 16:59:11 UTC 2026","passed","Fri Apr 03 16:59:14 UTC 2026","","tests.StepsAttachments","tests.StepsAttachments","testLambdaAttachments"
+"","2062","Создание Issue для автоматизированного пользователя","","Fri Apr 03 16:59:17 UTC 2026","passed","Fri Apr 03 16:59:19 UTC 2026","","tests.StepsTest","tests.StepsTest","testLambdaSteps"
