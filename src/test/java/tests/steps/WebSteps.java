@@ -1,4 +1,4 @@
-package tests;
+package tests.steps;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;

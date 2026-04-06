@@ -1,12 +1,12 @@
 package tests;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
-import io.qameta.allure.selenide.AllureSelenide;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+import tests.steps.WebSteps;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
@@ -27,8 +27,6 @@ public class StepsAttachments {
   @Link(value = "GitHub", url = "https://github.com")
   @DisplayName("Создание Issue для автоматизированного пользователя")
   public void testLambdaAttachments() {
-    SelenideLogger.addListener("allure", new AllureSelenide());
-
     step("Открываем главную страницу", () -> {
       open("https://github.com/");
     });
@@ -46,7 +44,6 @@ public class StepsAttachments {
       $(withText(ISSUE)).should(Condition.exist);
     });
    attachment("Source", webdriver().driver().source());
-
   }
 
   @Test
@@ -57,7 +54,6 @@ public class StepsAttachments {
   @Link(value = "GitHub", url = "https://github.com")
   @DisplayName("Создание Issue для автоматизированного пользователя")
   public void testAnnotatedAttachments() {
-    SelenideLogger.addListener("allure", new AllureSelenide());
     WebSteps steps = new WebSteps();
 
     steps
